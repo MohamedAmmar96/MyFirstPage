@@ -1,0 +1,228 @@
+/* Start of Main Reules */
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    color: #FFF;
+    font-family: Arial,Tahoma;
+}
+ul,ol
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+}
+/* End of Main Reules */
+
+/* start of header */
+
+header
+{
+    text-align: center;
+}
+
+header .avatar img
+{
+    background-color:#45435f; 
+    margin: 80px 10px 30px 10px;
+    padding: 7px;
+    border: 1px solid #6d6d84;
+    border-radius: 50%;
+}
+
+header main 
+{
+    margin: 20px 10px 30px 10px;
+    color: #C2BDC9;
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+header main span
+{
+    font-weight: bold;
+    color: #FFF;
+}
+
+header main a
+{
+    text-decoration:none;
+    border-bottom: 1px dotted #C2BDC9;
+    padding-bottom: 2px;
+    color: #C2BDC9;
+}
+header main a:hover
+{
+    color: #FFF;
+    border-bottom: none;
+}
+header .links ul
+{
+    margin-top: 5px;
+}
+header .links ul li
+{
+    display: inline-block;
+    border: 1px solid #6d6d84; 
+    border-radius: 50%; 
+    padding: 15px;
+    margin: 10px;
+}
+header .links ul li a 
+{
+    color: aliceblue;
+}
+
+i
+{
+    color: aliceblue;
+    padding: 5px;
+}
+/* end of header */
+
+/* start of section */
+
+section
+{
+    margin: 100px 120px 70px 120px;
+    overflow: hidden;
+}
+
+/* main design of columns */
+section .imglink
+{
+    border: 1px solid #C2BDC9;
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+section .imglink a
+{
+    text-decoration: none;
+    color:#efefef;
+}
+section .imglink:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.4), 0 6px 20px 0 rgba(255, 0, 0, 0.3);
+}
+section .imglink img
+{
+    width: 100%;
+}
+section .imglink p
+{
+    padding: 5px;
+}
+/* End of main design of columns */
+
+/* start of left column */
+section .leftcol
+{
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+section .leftcol .imglink .left1
+{    
+    height: 450px;
+}
+section .leftcol .imglink .left2
+{    
+    height: 250px;
+}
+
+/* start of left column */
+
+/* Start of center column */
+section .centercol
+{
+    float: left;
+    width: 31%;
+    text-align: center;
+}
+section .centercol .imglink .center1
+{    
+    height: 250px;
+}
+section .centercol .imglink .center2
+{    
+    height: 300px;
+}
+section .centercol .imglink .center3
+{    
+    height: 300px;
+}
+/*section .centercol .imglink img 
+{   
+    height: 250px;
+}*/
+/* End of center column */
+
+/* Start of right column */
+section .rightcol
+{
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-left: 32px;
+    margin-right: 5px;
+}
+section .rightcol .imglink .right1 
+{   
+    height: 350px;
+}
+section .rightcol .imglink .right2 
+{   
+    height: 450px;
+}
+/* End of right column */
+
+/* end of section */
+
+/* start of footer */
+footer
+{
+    min-height: 200px;
+}
+footer .line
+{
+    margin-bottom: 70px;
+}
+footer .line hr
+{
+    height: 1px;
+    color: #C2BDC9;
+    background-color: #C2BDC9;
+    border: none;
+    width: 180px;
+}
+footer .copyrights p
+{
+    text-align: center;
+    color: #C2BDC9;
+}
+footer .copyrights p a
+{
+    text-decoration:none;
+    border-bottom: 1px dotted #C2BDC9;
+    padding-bottom: 2px;
+    color: #C2BDC9;
+}
+footer .copyrights p a:hover
+{
+    color: #FFF;
+    border-bottom: none;
+}
+/* end of footer */
